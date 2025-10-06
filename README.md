@@ -1,1 +1,1 @@
-This is by joshlbw - it is a backend EMS system using GitHub Copilot.
+This is by joshlbw - these are frontend and backend exercises by GitHub Copilot

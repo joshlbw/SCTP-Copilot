@@ -1,0 +1,20 @@
+:root{
+  --bg:#f8fafc;
+  --card:#ffffff;
+  --muted:#6b7280;
+  --accent:#2563eb;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Roboto,Arial;margin:0;background:var(--bg);color:#111}
+.app{max-width:640px;margin:40px auto;padding:20px}
+header h1{margin:0 0 12px}
+.add-form{display:flex;gap:8px;margin-bottom:16px}
+.add-form input{flex:1;padding:10px;border:1px solid #e5e7eb;border-radius:6px}
+.btn{background:var(--accent);color:white;border:none;padding:10px 14px;border-radius:6px;cursor:pointer}
+.btn:disabled{opacity:0.5;cursor:not-allowed}
+.btn.small{padding:6px 8px;background:#ef4444}
+.tasks{background:var(--card);padding:12px;border-radius:8px;box-shadow:0 1px 2px rgba(0,0,0,0.04)}
+.task-item{display:flex;align-items:center;justify-content:space-between;padding:8px 4px;border-bottom:1px solid #f3f4f6}
+.task-item:last-child{border-bottom:0}
+.task-item.done .task-text{text-decoration:line-through;color:var(--muted)}
+.empty{color:var(--muted);text-align:center;padding:18px}
